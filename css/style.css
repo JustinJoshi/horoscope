@@ -1,0 +1,59 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background-image: url("../img/horoscope.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cen{
+  display: flex;
+  justify-content: center;
+}
+
+.alicen{
+  display: flex;
+  align-items: center;
+}
+
+body{
+  height: 100vh;
+}
+
+.cont{
+  margin: 220px;
+  font-size: 3rem;
+}
+.cont *{
+  border-radius: 10px;
+}
+
+.inner{
+  background-color: rgb(223, 183, 5);
+  padding: 30px;
+  border-radius: 20px;
+}
+.col{
+  display: flex;
+  flex-flow: column;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
